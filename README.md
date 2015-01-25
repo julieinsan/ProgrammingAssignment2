@@ -4,14 +4,23 @@ The second programming assignment required students to code several functions th
 
 ### Sample Usage
 
-<pre><code> > x <- c(2,3)
+<pre><code> 
+            > x <- c(2,3)
             > x <- rbind(x, c(2,2))
             > solve(x)
                   x     
             [1,] -1  1.5
             [2,]  1 -1.0
             > z <- makeCacheMatrix(x)
-            
+            > cacheSolve(z)
+                  x     
+            [1,] -1  1.5
+            [2,]  1 -1.0
+            > cacheSolve(z)
+            getting cached data
+                  x     
+            [1,] -1  1.5
+            [2,]  1 -1.0
             </code></pre>
 
 
